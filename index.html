@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="tr">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpatech - Otomasyon ve Güvenlik</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header role="banner">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="images/urun5.jpg" alt="Alpatech Logo" loading="eager">
+            </div>
+            <div class="phone-number">
+                <i class="fas fa-phone-alt"></i>
+                <div class="phone-text">
+                    <span class="phone-label">BİZİ ARAYIN</span>
+                    <span class="phone-value">0537 672 69 86</span>
+                </div>
+            </div>
+        </div>
+        <nav role="navigation" aria-label="Ana Menü">
+            <ul>
+                <li class="dropdown">
+                    <a href="#products" role="button" aria-haspopup="true" aria-expanded="false">Ürünler</a>
+                    <span class="dropdown-icon" aria-hidden="true">▼</span>
+                    <div class="dropdown-content" role="menu">
+                        <div class="mega-menu">
+                            <div class="menu-column">
+                                <h3>CCTV Kamera Sistemleri</h3>
+                                <a href="#wifi-kamera" class="product-link" data-image="images/wifi kamera.jpg" data-description="Mobil uygulama ile 7/24 canlı izleme, hareket algılama, anlık bildirim özellikli akıllı kamera, karşılıklı ses alışverişi ve hareketlere karşı bildirim">Wifi Kamera</a>
+                                <a href="#hd-kamera" class="product-link" data-image="images/hd kamera.png" data-description="Yüksek çözünürlüklü, gece renkli görüşlü, iç ve dış mekan korumalı profesyonel güvenlik kamerası">HD Kamera</a>
+                                <a href="#ip-kamera" class="product-link" data-image="images/ip kamera.webp" data-description="Network üzerinden erişim, bulut depolama ve gelişmiş hareket algılama özellikli IP kamera">IP Kamera</a>
+                            </div>
+                            <div class="menu-column">
+                                <h3>Güvenlik Sistemleri</h3>
+                                <a href="#bekci-tur" class="product-link" data-image="images/bekçi tur takip sistemi.jpg" data-description="Güvenlik personeli devriye takibi, online raporlama ve kontrol noktası yönetim sistemi">Bekçi Tur Takip Sistemi</a>
+                                <a href="#gsm-modullu" class="product-link" data-image="images/kablolu gsm sistemler.jpg" data-description="GSM üzerinden anlık alarm bildirimi, uzaktan kontrol ve izleme imkanı sunan sistem">Kablolu GSM Modüllü Sistemler</a>
+                                <a href="#gsm-modulsuz" class="product-link" data-image="images/kablosuz gsm sistemler.jpg" data-description="Kolay kurulum, kablosuz sensörler ve uzaktan erişim özellikli alarm sistemi">Kablosuz GSM Modülsüz Sistemler</a>
+                                <h4>Yangın Alarm Sistemleri</h4>
+                                <a href="#adresli" class="product-link" data-image="images/adresli-yangin-alarm-sistemleri.jpg" data-description="250 adrese kadar genişleyebilen, her dedektörü ayrı izleyebilen, LCD ekranlı akıllı yangın ihbar sistemi">Adresli Sistemler</a>
+                                <a href="#analog-yangin" class="product-link" data-image="images/analog-sistemler.jpg" data-description="8-32 bölge kapasiteli, ekonomik ve güvenilir konvansiyonel yangın algılama sistemi">Analog Sistemler</a>
+                            </div>
+                            <div class="menu-column">
+                                <h3>Otomatik Kapılar</h3>
+                                <a href="#fotoselli" class="product-link" data-image="images/automatic-door.png" data-description="Temassız geçiş, enerji tasarruflu, güvenlik sensörlü otomatik kayar kapı">Fotoselli Kapı</a>
+                                <a href="#kollu-bariyer" class="product-link" data-image="images/kollu-bariyer-ankara-scaled.jpg" data-description="Hızlı açılır-kapanır, LED aydınlatmalı, otopark giriş kontrol bariyeri">Kollu Bariyer</a>
+                                <a href="#mantar-bariyer" class="product-link" data-image="images/mantar bari..jpg" data-description="Yüksek güvenlikli, hidrolik tahrikli, zemine gömülü otomatik mantar bariyer">Mantar Bariyer</a>
+                                <a href="#turnike" class="product-link" data-image="images/turnike.jpg" data-description="Kart okuyucu entegreli, personel geçiş takip sistemli turnike">Turnike</a>
+                                <a href="#kepenk" class="product-link" data-image="images/kepenk panjur.jpg" data-description="Motorlu, uzaktan kumandalı, alüminyum güvenlik kepenk sistemi">Kepenk - Panjur</a>
+                                <a href="#endustriyel" class="product-link" data-image="images/industrial-doors.jpg" data-description="Endüstriyel tesisler için özel tasarlanmış otomatik kapı sistemleri">Endüstriyel Kapılar</a>
+                            </div>
+                            <div class="menu-column">
+                                <h3>Geçiş Kontrol Sistemleri</h3>
+                                <a href="#yuz-tanima" class="product-link" data-image="images/face-recognition-access.jpg" data-description="Temassız geçiş, yüz tanıma teknolojisi ile güvenli erişim kontrolü">Yüz Tanıma Sistemleri</a>
+                                <a href="#parmak-izi" class="product-link" data-image="images/fingerprint-reader.jpg" data-description="Biyometrik parmak izi okuyucu ile güvenli geçiş kontrolü, yeşil LED göstergeli, yüksek doğruluk oranı">Parmak İzi Sistemleri</a>
+                                <a href="#sifreli" class="product-link" data-image="images/password-access.jpg" data-description="Şifre ve kart okuyucu ile kontrollü geçiş sistemi">Şifreli Geçiş</a>
+                            </div>
+                            <div class="menu-column">
+                                <h3>Solar Ürünler</h3>
+                                <a href="#aydinlatma" class="product-link" data-image="images/lighting-systems.jpg" data-description="Güneş enerjili, enerji tasarruflu LED aydınlatma çözümleri">Aydınlatma Sistemleri</a>
+                                <a href="#tarimsal" class="product-link" data-image="images/tarımsal sulama.jpg" data-description="Solar enerjili, otomatik kontrollü tarımsal sulama sistemleri">Tarımsal Sulama</a>
+                            </div>
+                            <div class="menu-column">
+                                <h3>Elektrik Sistemleri</h3>
+                                <a href="#mesken" class="product-link" data-image="images/mesken tesisat.jpg" data-description="Modern konut ve işyerleri için profesyonel elektrik tesisat sistemleri">Mesken Tesisat Sistemleri</a>
+                                <a href="#tv-yayin" class="product-link" data-image="images/tv-broadcast-systems.jpg" data-description="Merkezi uydu sistemi, çoklu TV yayın dağıtımı ve headend çözümleri">TV Yayın Sistemleri</a>
+                                <a href="#isiklandirma" class="product-link" data-image="images/lighting-systems.jpg" data-description="Profesyonel ses sistemi ve LED aydınlatma çözümleri">Işıklandırma ve Seslendirme</a>
+                                <a href="#paratoner" class="product-link" data-image="images/paratoner sistemler.webp" data-description="Aktif/pasif yıldırım koruma ve topraklama sistemleri">Paratoner Sistemleri</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#portfolio">Portföy</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="header-contact-btn">İletişim</a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="content-wrapper">
+                <div class="hero-content">
+                    <h1>Otomasyon ve Güvenlikte<br>En Güncel Hizmet</h1>
+                    <p>Güvenliği ve Konforu Bir Araya<br>Getiriyoruz!</p>
+                </div>
+                <div class="main-slider-container">
+                    <div class="main-slider">
+                        <div class="main-slide"><img src="images/automatic-door.png" alt="Fotoselli Kapı"></div>
+                        <div class="main-slide"><img src="images/kollu-bariyer-ankara-scaled.jpg" alt="Kollu Bariyer"></div>
+                        <div class="main-slide"><img src="images/audio-intercom-system.jpg" alt="Görüntülü Diafon"></div>
+                        <div class="main-slide"><img src="images/face-recognition-access.jpg" alt="Yüz Tanıma Sistemi"></div>
+                        <div class="main-slide"><img src="images/lighting-systems.jpg" alt="Aydınlatma Sistemleri"></div>
+                        <div class="main-slide"><img src="images/industrial-doors.jpg" alt="Endüstriyel Kapılar"></div>
+                        <div class="main-slide"><img src="images/adresli-yangin-alarm-sistemleri.jpg" alt="Yangın Alarm Sistemleri"></div>
+                    </div>
+                    <div class="main-slider-nav">
+                        <button class="main-prev">&#10094;</button>
+                        <button class="main-next">&#10095;</button>
+                    </div>
+                    <div class="slider-dots"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio-container">
+                <h2>PORTFÖYÜMÜZ</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item large">
+                        <img src="images/lighting-systems.jpg" alt="Aydınlatma Sistemleri">
+                        <div class="portfolio-overlay">
+                            <h3>Aydınlatma Sistemleri</h3>
+                            <p>Profesyonel Aydınlatma Çözümleri</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/kollu-bariyer-ankara-scaled.jpg" alt="Bariyer Sistemi">
+                        <div class="portfolio-overlay">
+                            <h3>Bariyer Sistemleri</h3>
+                            <p>Otopark Güvenlik Çözümleri</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/wifi kamera.jpg" alt="Kamera Sistemleri">
+                        <div class="portfolio-overlay">
+                            <h3>Kamera Sistemleri</h3>
+                            <p>Profesyonel Güvenlik Çözümleri</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item large">
+                        <img src="images/face-recognition-access.jpg" alt="Yüz Tanıma Sistemi">
+                        <div class="portfolio-overlay">
+                            <h3>Geçiş Kontrol Sistemleri</h3>
+                            <p>Modern Güvenlik Çözümleri</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <div class="experience-text">14 Yıllık Deneyim</div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>İLETİŞİM İÇİN</h2>
+            <div class="contact-address">
+                <p><strong>Adres:</strong> Şirintepe mahallesi 3144.sokak Göktürk apartmanı no 1</p>
+            </div>
+            <div class="contact-options">
+                <a href="https://wa.me/905376726986" target="_blank" class="contact-item">
+                    <img src="images/whatsapp-icon-6953522_960_720.jpg" alt="WhatsApp" class="social-icon">
+                </a>
+                <a href="mailto:info@alpatech.com" target="_blank" class="contact-item">
+                    <img src="images/logo-1162901_1920.png" alt="Gmail" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/alp_elektronik_38/" target="_blank" class="contact-item">
+                    <img src="images/instagram.jpg" alt="Instagram" class="social-icon">
+                </a>
+            </div>
+        </section>
+
+        <section class="contact-form" id="contact-form">
+            <div class="form-container">
+                <div class="form-content">
+                    <h2>BİZE YAZIN</h2>
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ad Soyad" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="company" name="company" placeholder="İşyeri">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-posta Adresi" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Mesajınız" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="#" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Modal yapısı -->
+    <div class="product-modal" id="productModal">
+        <div class="modal-content">
+            <h2 class="modal-title"></h2>
+            <img src="" alt="Ürün Görseli" class="modal-image">
+            <button class="modal-prev">&lt;</button>
+            <button class="modal-next">&gt;</button>
+            <button class="modal-close">&times;</button>
+        </div>
+    </div>
+
+    <div class="menu-overlay"></div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('productModal');
+            const modalImage = modal.querySelector('.modal-image');
+            const modalClose = modal.querySelector('.modal-close');
+            const productLinks = document.querySelectorAll('.product-link');
+            const dropdown = document.querySelector('.dropdown');
+            const dropdownContent = document.querySelector('.dropdown-content');
+            const mainSlider = document.querySelector('.main-slider');
+            const slides = document.querySelectorAll('.main-slide');
+
+            // Görsel yükleme hatalarını önlemek için
+            function preloadImages() {
+                slides.forEach(slide => {
+                    const img = slide.querySelector('img');
+                    if (img) {
+                        img.onerror = function() {
+                            console.warn('Görsel yüklenemedi:', img.src);
+                            img.src = 'images/placeholder.jpg'; // Yedek görsel
+                        };
+                    }
+                });
+
+                productLinks.forEach(link => {
+                    const imgUrl = link.getAttribute('data-image');
+                    if (imgUrl) {
+                        const img = new Image();
+                        img.src = imgUrl;
+                        img.onerror = function() {
+                            console.warn('Ürün görseli yüklenemedi:', imgUrl);
+                        };
+                    }
+                });
+            }
+
+            // Modal işlemleri
+            function initModal() {
+                productLinks.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const imageUrl = this.getAttribute('data-image');
+                        if (imageUrl) {
+                            modalImage.onerror = function() {
+                                console.warn('Modal görseli yüklenemedi:', imageUrl);
+                                this.src = 'images/placeholder.jpg'; // Yedek görsel
+                            };
+                            modalImage.src = imageUrl;
+                            modal.classList.add('active');
+                        }
+                    });
+                });
+
+                modalClose.addEventListener('click', () => {
+                    modal.classList.remove('active');
+                });
+
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        modal.classList.remove('active');
+                    }
+                });
+            }
+
+            // Mobil menü işlemleri
+            function initMobileMenu() {
+                if (window.innerWidth <= 768) {
+                    const dropdownTrigger = dropdown.querySelector('a');
+                    dropdownTrigger.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        dropdownContent.style.display = dropdownContent.style.display === 'flex' ? 'none' : 'flex';
+                    });
+
+                    document.addEventListener('click', (e) => {
+                        if (!dropdown.contains(e.target)) {
+                            dropdownContent.style.display = 'none';
+                        }
+                    });
+                }
+            }
+
+            // ESC tuşu ile kapatma
+            function initKeyboardEvents() {
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape') {
+                        modal.classList.remove('active');
+                        if (window.innerWidth <= 768) {
+                            dropdownContent.style.display = 'none';
+                        }
+                    }
+                });
+            }
+
+            // Tüm başlatma işlemlerini sırayla çalıştır
+            try {
+                preloadImages();
+                initModal();
+                initMobileMenu();
+                initKeyboardEvents();
+            } catch (error) {
+                console.warn('Başlatma sırasında hata:', error);
+            }
+        });
+    </script>
+</body>
+</html>
